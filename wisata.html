@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogja Wisata - Daftar Destinasi</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">🌴 Jogja Wisata</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuUtama">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menuUtama">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="index.html">Beranda</a></li>
+          <li class="nav-item"><a class="nav-link active" href="wisata.html">Destinasi</a></li>
+          <li class="nav-item"><a class="nav-link" href="tentang.html">Tentang</a></li>
+          <li class="nav-item"><a class="btn btn-light btn-sm ms-lg-2" href="login.html">Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="container py-5">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Beranda</a></li>
+        <li class="breadcrumb-item active">Destinasi</li>
+      </ol>
+    </nav>
+    <h1 class="judul-section mb-1">Daftar Destinasi Wisata</h1>
+    <p class="text-muted mb-4">Pilih destinasi untuk melihat informasi lengkapnya.</p>
+
+    <div class="row g-4">
+
+      <div class="col-sm-6 col-lg-4">
+        <div class="card card-wisata shadow-sm h-100">
+          <img src="images.prambanan.jpg" class="card-img-top" alt="Candi Prambanan">
+          <div class="card-body d-flex flex-column">
+            <span class="badge bg-warning text-dark align-self-start mb-2">Budaya</span>
+            <h5 class="card-title">Candi Prambanan</h5>
+            <p class="card-text text-muted">Kompleks candi Hindu abad ke-9 yang megah dan masuk daftar warisan dunia UNESCO.</p>
+            <a href="detail.html?id=prambanan" class="btn btn-primary mt-auto">Lihat Detail</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-lg-4">
+        <div class="card card-wisata shadow-sm h-100">
+          <img src="images.keraton.jpg" class="card-img-top" alt="Keraton Yogyakarta">
+          <div class="card-body d-flex flex-column">
+            <span class="badge bg-warning text-dark align-self-start mb-2">Budaya</span>
+            <h5 class="card-title">Keraton Yogyakarta</h5>
+            <p class="card-text text-muted">Istana Sultan yang menyimpan koleksi pusaka, seni, dan tradisi Jawa.</p>
+            <a href="detail.html?id=keraton" class="btn btn-primary mt-auto">Lihat Detail</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-lg-4">
+        <div class="card card-wisata shadow-sm h-100">
+          <img src="images.malioboro.jpg" class="card-img-top" alt="Malioboro">
+          <div class="card-body d-flex flex-column">
+            <span class="badge bg-info text-dark align-self-start mb-2">Belanja &amp; Kuliner</span>
+            <h5 class="card-title">Jalan Malioboro</h5>
+            <p class="card-text text-muted">Ikon kota Yogyakarta, tempat berburu oleh-oleh dan jajanan khas.</p>
+            <a href="detail.html?id=malioboro" class="btn btn-primary mt-auto">Lihat Detail</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-lg-4">
+        <div class="card card-wisata shadow-sm h-100">
+          <img src="images.parangtritis.jpg" class="card-img-top" alt="Pantai Parangtritis">
+          <div class="card-body d-flex flex-column">
+            <span class="badge bg-primary align-self-start mb-2">Alam</span>
+            <h5 class="card-title">Pantai Parangtritis</h5>
+            <p class="card-text text-muted">Pantai selatan yang terkenal dengan ombak besar, sunset, dan gumuk pasir.</p>
+            <a href="detail.html?id=parangtritis" class="btn btn-primary mt-auto">Lihat Detail</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-lg-4">
+        <div class="card card-wisata shadow-sm h-100">
+          <img src="images.merapi.jpg" class="card-img-top" alt="Gunung Merapi">
+          <div class="card-body d-flex flex-column">
+            <span class="badge bg-primary align-self-start mb-2">Alam</span>
+            <h5 class="card-title">Lereng Merapi</h5>
+            <p class="card-text text-muted">Wisata alam dan jeep lava tour di kaki gunung api paling aktif di Indonesia.</p>
+            <a href="detail.html?id=merapi" class="btn btn-primary mt-auto">Lihat Detail</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-lg-4">
+        <div class="card card-wisata shadow-sm h-100">
+          <img src="images.tamansari.jpg" class="card-img-top" alt="Taman Sari">
+          <div class="card-body d-flex flex-column">
+            <span class="badge bg-warning text-dark align-self-start mb-2">Budaya</span>
+            <h5 class="card-title">Taman Sari</h5>
+            <p class="card-text text-muted">Bekas taman istana dengan kolam pemandian dan lorong bawah tanah bersejarah.</p>
+            <a href="detail.html?id=tamansari" class="btn btn-primary mt-auto">Lihat Detail</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="py-4 text-center">
+    <div class="container">
+      <p class="mb-1 fw-semibold">Jogja Wisata</p>
+      <small>&copy; 2026 Website Informasi Wisata Daerah. Dibuat untuk tugas Pemrograman Web.</small>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

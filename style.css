@@ -1,0 +1,47 @@
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background-color: #8e0d0d;
+}
+
+/* Hero section */
+.hero {
+  background: linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
+              url('..images.hero.jpg') center/cover no-repeat;
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+/* Card destinasi */
+.card-wisata {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform .25s, box-shadow .25s;
+}
+.card-wisata:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0,0,0,.15);
+}
+.card-wisata img {
+  height: 210px;
+  object-fit: cover;
+}
+
+.gambar-detail {
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.judul-section {
+  font-weight: 700;
+  color: #871919;
+}
+
+footer {
+  background-color: #531414;
+  color: #d1fae5;
+}
